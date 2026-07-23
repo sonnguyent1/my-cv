@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ai-driven-cv
+    env: static
+    buildCommand: "" # No build step required for static HTML
+    staticPublishPath: ./ # Serves the index.html directly from root
